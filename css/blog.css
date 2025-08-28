@@ -1,0 +1,101 @@
+
+header{
+    height: 50vh;
+}
+.header-content p {
+    font-size: 16px ;
+    margin-bottom: 1rem;
+}
+.header-content h2{
+        margin-bottom: 10px;
+}
+.header-content p a{
+    color: #e43c5c;
+}
+
+/* ---------------------- */
+article{
+    background-color: #fff;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.post-img {
+    max-height: 240px;
+    margin: -30px -30px 15px -30px;
+    overflow: hidden;
+}
+.post-img img{
+
+}
+.post-category {
+    font-size: 16px;
+    color: color-mix(in srgb, #444444, transparent 40%);
+    margin-bottom: 10px;
+}
+article h2{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0 0 20px 0;
+    color:#493c3e;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+article h2:hover{
+    color: #e43c5c;
+
+}
+.author-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.author-name{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.author-date{
+    font-size: 14px;
+    color: color-mix(in srgb,#444444, transparent 40%);
+    margin-bottom: 0;
+}
+
+/* --------pagination */
+.pagination-content{
+    display: flex;
+    justify-content: center;
+}
+.pagination-content ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.pagination-content ul li{
+    margin: 0 5px;
+}
+.pagination-content li a {
+    color: #e43c5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid #e43c5c;
+    transition:all 0.3s;
+
+}
+.pagination-content ul li a:hover {
+    background-color: #e43c5c;
+    color: #fff;
+
+}
+.active-pagination a{color: #fff !important;
+    background-color: #e43c5c;
+
+}
